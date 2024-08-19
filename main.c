@@ -9,7 +9,7 @@ int main(){
     for(int i = 0; i < n - 2; i++){
         int num;
         scanf("%i", &num);
-        if (num > n-1){
+        if (num > n){
             printf("out of range");
             return -1;
         }
